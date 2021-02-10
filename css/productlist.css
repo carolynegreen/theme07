@@ -1,0 +1,36 @@
+body {
+  padding: 2rem;
+}
+
+.productlist main {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(150px, 300px));
+  gap: 1rem;
+}
+
+.productlist main h2 {
+  grid-column: 1/-1;
+}
+
+.productlist article > * {
+  margin: 0;
+  font-size: 1rem;
+}
+
+.productlist article {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 1rem;
+}
+
+.productlist article.soldOut img {
+  opacity: 0.5;
+}
+
+.productlist article.onSale .price {
+  text-decoration: line-through;
+}
+
+.productlist article.onSale .discounted {
+  font-weight: bold;
+}

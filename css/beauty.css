@@ -1,0 +1,24 @@
+body {
+  background-color: rgb(245, 245, 245);
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  margin: 1rem;
+}
+
+.mainNav h1 {
+  display: inline-block;
+}
+
+.mainNav > * {
+  margin: 0;
+  margin-bottom: 1rem;
+}
+
+footer {
+  margin-top: 2rem;
+  padding: 2rem;
+  background-color: lightgrey;
+}
+
+footer p {
+  display: inline;
+}
