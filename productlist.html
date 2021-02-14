@@ -21,18 +21,23 @@
       <a href="categories.html">Back to Categories</a>
       <h2>T-Shirts</h2>
 
-      <article class="product">
-        <img
-          src="https://kea-alt-del.dk/t7/images/webp/640/1163.webp"
-          alt="Sahara Team India Fanwear Round Neck Jersey"
-        />
-        <h3>Sahara Team India Fanwear Round Neck Jersey</h3>
-        <p>T-Shirts | Nike</p>
-        <p class="price">895 DKK</p>
-        <a href="product.html">View Product</a>
-      </article>
+      <template id="productTemplate">
+        <article class="product onSale">
+          <img
+            src="https://kea-alt-del.dk/t7/images/webp/640/1163.webp"
+            alt="Sahara Team India Fanwear Round Neck Jersey"
+          />
+          <h3>Sahara Team India Fanwear Round Neck Jersey</h3>
+          <p class="subtle">T-Shirts | Nike</p>
+          <p class="price">895 DKK</p>
+          <div class="discounted">
+            <p>Now 1567 DKK</p>
+          </div>
+          <a href="product.html">View Product</a>
+        </article></template
+      >
 
-      <article class="product onSale soldOut">
+      <!--<article class="product onSale soldOut">
         <img
           src="https://kea-alt-del.dk/t7/images/webp/640/1164.webp"
           alt="Blue T20 Indian Cricket Jersey"
@@ -94,8 +99,9 @@
         <p class="price">899 DKK</p>
 
         <a href="#.html">View Product</a>
-      </article>
+      </article>-->
     </main>
+
     <footer>
       <p>Product list courtesy of</p>
       <a
@@ -103,5 +109,6 @@
         >Kaggle</a
       >
     </footer>
+    <script src="js/productlist.js"></script>
   </body>
 </html>

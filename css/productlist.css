@@ -27,6 +27,14 @@ body {
   opacity: 0.5;
 }
 
+.productlist article.soldOut::before {
+  content: "Sold Out";
+  position: absolute;
+  background: rgb(0, 0, 0);
+  color: rgb(245, 245, 245);
+  padding: 1rem;
+}
+
 .productlist article.onSale .price {
   text-decoration: line-through;
 }
